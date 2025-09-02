@@ -200,7 +200,7 @@ export default function GamePage() {
       {/* ✅ Exit button */}
       <button
         onClick={() => push("/")}
-        className="absolute left-4 top-4 z-30 rounded-lg bg-red-600/80 px-4 py-2 text-sm font-semibold text-white shadow-md hover:bg-red-700 transition"
+        className="absolute right-4 bottom-4 z-30 rounded-lg bg-red-600/80 px-4 py-2 text-sm font-semibold text-white shadow-md hover:bg-red-700 transition"
       >
         Exit
       </button>
